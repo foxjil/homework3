@@ -1,0 +1,106 @@
+.hide {
+    display: none;
+    }
+
+.container  {
+    display: inline;
+    background-color: red;
+} 
+
+
+ul.hr li {
+    display: inline-block; 
+    background-color: orange;
+    max-width: 550px; 
+   }
+
+#line a {
+    display: inline-block;
+    color: red;
+    text-decoration: none; 
+    border-bottom: 3px solid transparent;
+}
+
+#line a:hover {
+    border-bottom: 3px solid red;
+    display: inline-block;
+}
+
+li {
+    list-style-type: none;
+    /* Убираем маркеры */
+  }
+
+.header {
+    background-color: orange;
+}
+ 
+.headline {
+    text-align: center;
+}
+
+.squirrel {
+    text-align: center;
+    
+}
+
+img {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    border: 5px solid grey;
+    border-radius: 10px/20px;
+
+}
+.text {
+    text-align: center;
+}
+
+.link {
+    background-color: orange;
+    color: red;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.body .background {
+    background-image: url(pics\background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+ul.pagination li {
+    display: inline;
+}
+
+ul.pagination li a {
+    color:red;
+    float: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;;
+    border: 2px solid orange;
+    margin: 0 4px;
+    border-radius: 3px/5px;
+    text-align: center;
+}
+
+ul.pagination li a.active {
+    background-color:orange;
+    color:red;
+    border: 1px solid orange;
+}
+
+
+
+/*Примечания, что не получилось сделать:*/
+/*1. пункты 1,2,3 заливка не во всю строку*/
+/*2. не получается сделать фон*/
+/*3. не получается сделать ссылку под картинкой и пагинацию отцентровать*/
